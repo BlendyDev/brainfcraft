@@ -1,0 +1,7 @@
+name: brainfcraft
+version: '${version}'
+main: me.blendy.brainfcraft.Brainfcraft
+api-version: '1.20'
+commands:
+  bf:
+    usage: /bf <source> <input>
