@@ -140,7 +140,6 @@ public class InterpreterImpl implements Interpreter {
         for (int i = 0; i < intArray.length; i++) {
             intArray[i] = memory[i] & 0xFF;
         }
-        System.out.println("memory: "+ Arrays.toString(intArray) + "\ndepth: " + loops.size() + "\nexecuting instruction " + instruction.toString());
         switch (instruction) {
             case ADD -> {
                 memory[memoryPointer]++;
